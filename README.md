@@ -6,7 +6,6 @@ using stack:
 - grid
 - js
 - html, css
-- scss
 
 
 

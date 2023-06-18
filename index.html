@@ -13,117 +13,80 @@
 
 	<meta name="description" content='расчеты по китайскому солнечному календарю, астро, калькулятор ци мень, калькулятор феншуй'>
 	<meta name='Keywodrds' content='феншуй, астро, цимень, бацзы, китайский календарь, солнечный календарь'>
-	<link href="style.css" rel="stylesheet">
+	<link href="./styles/style.css" rel="stylesheet">
 </head>
 <body>
 
 	<!-- Навигационное меню -->
-	<header class="main-section__header">
+	<header class="header">
 
-		<nav class="main-section__nav nav-menu">
-			<ul class='nav-menu__list'>
-				<li class="nav-menu__list-item"><a href="#services">УСЛУГИ</a></li>
-				<li class="nav-menu__list-item"><a href="#projects">ПРОЕКТЫ</a></li>
-				<li class="nav-menu__list-item"><a href="#about-me">ОБО МНЕ</a></li>
-				<li class="nav-menu__list-item"><a href="#contacts">КОНТАКТЫ</a></li>
+		<nav class="header__nav">
+			<ul class='list'>
+				<li class="list-item"><a href="#services">УСЛУГИ</a></li>
+				<li class="list-item"><a href="#projects">ПРОЕКТЫ</a></li>
+				<li class="list-item"><a href="#about-me">ОБО МНЕ</a></li>
+				<li class="list-item"><a href="#contacts">КОНТАКТЫ</a></li>
 			</ul>
 		</nav>
-			</header>
-<main>
-    <h1>Tools of Chinese Calendar</h1>
+	</header>
+
+<!-- SIDEBAR  -->
+<aside> <!-- Боковая панель (сайдбар) -->
+	<nav> <!-- Дополнительное меню страницы -->
+	  <ul>
+		<li><a href="/service-1/">Услуга 1</a></li>
+		<li><a href="/service-2/">Услуга 2</a></li>
+		<li><a href="/service-3/">Услуга 3</a></li>
+	  </ul>
+	</nav>
+</aside>
+
+
+ <!-- SECTION MAIN  -->
+
+ <main>
+
+	<h1>Tools of Chinese Calendar</h1>
+
+	<section class="chinese calendar">
+
+	</section>
+
+
+	<section class="qimen">
 
 		<div class="table">
-        		<!-- 9 <div class="cells"> 1 row 1 clomn du-men</div> -->
-        		<div class="cells"> 1 row 2 column view-men</div>
-        		<div class="cells"> 1 row 3 clomn si-men</div>
-        <div class="cells"> 2 row 1 clomn break-men</div>
-        <div class="cells"> 2 row 2 clomn empty-cell</div>
-        <div class="cells"> 2 row 3 column shock-men</div>
-        <div class="cells"> 3 row 1 column life-men </div>
-        <div class="cells"> 3 row 2 column relax-men </div>
-        <div class="cells"> 3 row 3 column open-men</div>
+
+			<div class="cells"> 1 </div>
+        	<div class="cells"> 2 </div>
+			<div class="cells"> 3 </div>
+	        <div class="cells"> 4 </div>
+    	    <div class="cells"> 5 </div>
+       	 	<div class="cells"> 6 </div>
+        	<div class="cells"> 7 </div>
+        	<div class="cells"> 8 </div>
+        	<div class="cells"> 9</div>
+			<div class="cells"> 1 1</div>
+        	<div class="cells"> 2 2</div>
+			<div class="cells"> 3 3</div>
+	        <div class="cells"> 4 4</div>
+    	    <div class="cells"> 5 5</div>
+       	 	<div class="cells"> 6 6</div>
+        	<div class="cells"> 7 7</div>
+        	<div class="cells"> 8 8</div>
+        	<div class="cells"> 9 9</div>
 
 		</div> <!-- table -->
-
-	<!-- Первая секция -->
-	<section class="main-section">
-		<div class="hamburger">
-			<span></span>
-			<span></span>
-			<span></span>
-
-		<!-- ограничивающий контейнер на меню -->
-			<div class="container main-section_nav-contaner">
-
-
-
-			<!-- Ограничивающий контейнер основного контента первой секции -->
-			<div class="container main-section_content-container">
-
-			</div>
-		</section>
-
-		<div class='image'> <img src='computer.mp4.mp4'></div>
-		<section class='hello'>
-			<h1>Услуги Верстки и Фронтенд-разработки</h1>
-			<p>Закажите услуги верстки одностраничного лендинга, многостраничного сайта, поддержку существующих проектов или другие услуги в сфере фронтенд-разработки.</p>
-			<p><input type='button' class='order'>Заказать</button></p>
-			<div class='img'>
-			<img src='img/gadgets.png' width='400' height='400' alt='компьютер, мобильный телефон и планшет'>
-			</div>
-		</section>
-
-		<section class='projects'>
-			<h2>Выберите интересующий вас проект</h2>
-			<div class='landing-page'>Landing page</div>
-			<div class='multi-page'>Многостраничный сайт</div>
-			<div class='support'>Поддержка проекта</div>
-		</section>
-
-		<section class='portfolio'>
-			<h2 class='section-three__title'>Прошлые проекты</h2>
-			Портфолио
-			<p>Портфолио включает в себя примеры ранее созданных проектов лендинга, верстки и других работ</p>
-			стэк - проект - ссылка и мини-картинка.
-			<div class="SimpleCalculator">
-				<h3>Stack: html & css</h3>
-				<p>Экспресс-проект на html и css без адаптивного дизайна для возможности проверки простого математического примера в одну строку для детей.
-				<a href="#">SimpleCalculator</a>
-				<img src=''>картинка с этим проектом.
-			</div>
-			<div class="landing-frontend">
-				<h3>Stack: html, css, sass</h3>
-				<a href='#'>Landing-page "Услуги фронтенд-разработки"></a>
-				<img src=''>
-			</div>
-
-		<section class='form'>
-			<fieldset name='Форма для связи'>
-				<label for="first-name"><input type="text" name="First-name" placeholder="Имя">
-				<label for="second-name"><input type="text" name="Second-Name" placeholder="Фамилия">
-				<label for="email"><input type='email' name="email" placeholder="Укажите email для обратной связи">
-				<label for='object'><input type="textarea" name="object" placeholder="Укажите информацию, уточняющую, какой бы вы сайт или лендинг хотели получить">
-				<label for="telegram"><input type="text" name="telegram" placeholder="@*****">
-			</fieldset>
-
-		</section>
-		<p>Choose and push the button</p>
 		<div>
-			<button class="button">What do you know About Me</button>
+			<button class="button">переключить на следующую таблицу</button>
 		</div>
-		<div>
-			<button class="button">What Kind is my House for Me?</button>
-		</div>
-		<div>
-			<button class="button">What Can I Do?</button>
-		</div>
+	</section>
 
 	</main>
 
 	<footer>
 		<h3 class=''>Контакты для связи с фронтенд-разработчиком</h3>
-		<img src="img/icon.jpg" class='telegram'>Telegram @ek
-		<img src="email"> Email: frontenddevkan@gmail.com
+		<p class='telegram'>Telegram @frontendkat</p>
 	</footer>
 
 
