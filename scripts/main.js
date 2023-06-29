@@ -1,8 +1,12 @@
 "use strict";
 
 
-//Китайский календарь описывает циклические изменения, происходящие на Земле под влиянием Солнца и Луны. Китайский календарь определяет последовательность дат, а также дает их энергетическое описание.
-//Описывает каждый отрезок времени как энергетическую совокупность, складывающуюся в том или ином месте Земли под влиянием Солнца и Луны. Помогает узнать качество определенного момента.
+
+// Китайский календарь определяет последовательность дат,
+//а также дает их энергетическое описание.
+//Описывает каждый отрезок времени как энергетическую совокупность,
+// складывающуюся в том или ином месте Земли под влиянием Солнца и Луны.
+// Помогает узнать качество определенного момента.
 // Земля летит по своей орбите вокруг Солнца - смена времен года.
 //Благодаря вращению Земли вокруг своей оси - смена суток
 //Солнечные ритмы - солнечный китайский календарь
@@ -86,18 +90,21 @@
 
 
 
-const arrayNS = ['dzja', 'je', 'bin', 'din', 'wu', 'dzi', 'gen', 'sinj', 'zhen', 'guj'];
-const arrayZV = ['rat', 'bull', 'tiger', 'rabbit', 'dragon', 'snake', 'horse', 'goat', 'monkey', 'rooster', 'dog', 'pig'];
+// const arrayNS = ['dzja', 'je', 'bin', 'din', 'wu', 'dzi', 'gen', 'sinj', 'zhen', 'guj'];
+// const arrayZV = ['rat', 'bull', 'tiger', 'rabbit', 'dragon', 'snake', 'horse', 'goat', 'monkey', 'rooster', 'dog', 'pig'];
 
-for(let i = 0; i < 65; i++) {
-  const energyNowNS = arrayNS.shift();
-  const energyNowZV = arrayZV.shift();
+// for(let i = 0; i < 65; i++) {
+//   const energyNowNS = arrayNS.shift();
+//   const energyNowZV = arrayZV.shift();
 
-  arrayNS.push(energyNowNS);
-  arrayZV.push(energyNowZV);
+//   arrayNS.push(energyNowNS);
+//   arrayZV.push(energyNowZV);
 
-  const result = arrayNS[0] + '//' + arrayZV[0];
+//   const result = arrayNS[0] + '//' + arrayZV[0];
 
-  console.log(result);
-}
+//   console.log(result);
+// }
+
+
+
 
