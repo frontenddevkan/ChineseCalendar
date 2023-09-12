@@ -96,9 +96,10 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
+
+
     gap: 10px;
-    padding: auto;
+
 
 }
 
@@ -109,16 +110,11 @@ a {
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto;
     gap: 20px;
-    padding: 20px;
-    padding-bottom: 0;
-
 
     background-color: #f0f0f00c;
     border: 2px rgba(146, 58, 131, 0.22) solid;
     border-radius: 10px;
 
-
-    margin-bottom: 10px;
 }
 
 .grid {
@@ -148,10 +144,11 @@ a {
 
 .arrow-left:hover,.arrow-right:hover {
     cursor: pointer;
-    border: 3px rgba(146, 58, 131, 0.188) solid;
 
     transition: 0.5s;
     background-color: #f0f0f099;
+    transform: scale(1.2);
+    outline: 3px rgba(146, 58, 131, 0.188) solid;
 }
 
 .head-qimen {
