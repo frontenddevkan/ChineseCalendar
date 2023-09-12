@@ -23,7 +23,7 @@ body {
 }
 
 .header__nav {
-    width: 100%;
+
     margin: 2%;
 }
 
@@ -38,14 +38,14 @@ body {
     font-size: 1.5rem;
 
 }
-.list-item:hover {
+.list-item:hover, .grid:hover {
 
     cursor: pointer;
     border: 3px rgba(146, 58, 131, 0.188) solid;
-    border-radius: 33px;
     transition: 0.5s;
     background-color: #f0f0f099;
-
+    padding: 20px;
+    border-radius: 0;
 }
 p {
    color: #f0f0f0cd;
@@ -147,18 +147,12 @@ a {
     align-items: center;
     flex-direction: row;
 }
-.button:hover {
-    cursor: pointer;
-    border: 3px rgba(146, 58, 131, 0.188) solid;
-    border-radius: 33px;
-    transition: 0.5s;
-    background-color: #f0f0f099;
-    padding: 10px;
-}
+
+
 .arrow-left:hover,.arrow-right:hover {
     cursor: pointer;
     border: 3px rgba(146, 58, 131, 0.188) solid;
-    border-radius: 33px;
+
     transition: 0.5s;
     background-color: #f0f0f099;
 }
@@ -167,24 +161,6 @@ a {
     margin-bottom: 20px;
 }
 
-
-.first-row, .second-row, .third-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    background-color: transparent;
-
-}
-
-.first-column, .second-column, .third-bolumn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    background-color: transparent;
-    flex-wrap: wrap;
-}
 .telegram {
     font-size: 0.8rem;
 
