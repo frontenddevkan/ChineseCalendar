@@ -34,8 +34,13 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-size: 1.5rem;
+
+}
+
+.list-item {
+    padding: 10px;
 
 }
 .list-item:hover, .grid:hover {
@@ -47,7 +52,7 @@ body {
 
     border-radius: 0;
     transform: scale(1.2);
-    outline: 3px rgba(146, 58, 131, 0.188) solid;
+    outline: 1px rgba(244, 68, 153, 0.85) solid;
 }
 p {
    color: #f0f0f0cd;
@@ -111,7 +116,7 @@ a {
     background-color: #f0f0f00c;
     border: 2px rgba(146, 58, 131, 0.22) solid;
     border-radius: 10px;
-
+    position: relative;
 }
 
 .grid {
@@ -137,14 +142,31 @@ a {
 
 }
 
+.line-vertical {
+    width: 188px;
+    height: 661px;
+    border: 2px rgba(146, 58, 131, 0.246) solid;
+    position: absolute;
+    left: 216px;
+    top: 0px;
 
+}
+
+.line-horisontal {
+    width: 612px;
+    height: 199px;
+    border: 2px rgba(146, 58, 131, 0.275) solid;
+    position: absolute;
+    left: 0px;
+    top: 234px;
+}
 .arrow-left:hover,.arrow-right:hover {
     cursor: pointer;
 
     transition: 0.5s;
     background-color: #f0f0f099;
     transform: scale(1.2);
-    outline: 3px rgba(146, 58, 131, 0.188) solid;
+    outline: 3px rgba(146, 58, 131, 0.271) solid;
 }
 
 .head-qimen {
