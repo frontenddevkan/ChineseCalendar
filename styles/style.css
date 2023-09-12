@@ -1,7 +1,7 @@
 body {
 
     max-width: 1500px;
-    height: 1000px;
+    height: 1700px;
     margin: 0 auto;
     background-image: url("../images/backgrounds/background.png");
     background-repeat: no-repeat;
@@ -52,8 +52,8 @@ body {
     background-color: #f0f0f099;
 
 }
-h1, p {
-    color: #f0f0f064;
+p {
+   color: #f0f0f0cd;
    display: flex;
    justify-content: center;
 }
@@ -89,6 +89,11 @@ a {
 
 }
 
+.calendar__head {
+    margin-bottom: 30px;
+}
+
+
 .hour, .month, .day, .year {
     display: flex;
     justify-content: center;
@@ -106,8 +111,13 @@ a {
     flex-wrap: wrap;
     gap: 10px;
 
-
 }
+
+.qimen__table {
+    display: grid;
+    margin-bottom: 40px;
+}
+
 .grid {
     margin: 10px;
     background-color:  #f0f0f022;
@@ -120,6 +130,16 @@ a {
     transition: 0.4s;
     background-color: #f0f0f036;
     color: #F0F0F0;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 3px rgba(146, 58, 131, 0.188) solid;
+    border-radius: 33px;
+    transition: 0.5s;
+    background-color: #f0f0f099;
+    padding: 10px;
 }
 
 .telegram {
