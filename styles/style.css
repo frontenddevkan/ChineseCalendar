@@ -128,17 +128,8 @@ a {
 .grid {
     margin: 10px;
     background-color:  #f0f0f022;
+}
 
-}
-.button {
-    border: 2px rgba(146, 58, 132, 0.366) solid;
-    border-radius: 10px;
-    padding: 5px 5px;
-    transition: 0.4s;
-    background-color: #f0f0f036;
-    color: #F0F0F0;
-    font-size: 1.2em;
-}
 .arrow-left, .arrow-right {
     width: 50px;
     height: 50px;
@@ -165,6 +156,18 @@ a {
     background-color: #f0f0f099;
     padding: 10px;
 }
+.arrow-left:hover,.arrow-right:hover {
+    cursor: pointer;
+    border: 3px rgba(146, 58, 131, 0.188) solid;
+    border-radius: 33px;
+    transition: 0.5s;
+    background-color: #f0f0f099;
+}
+
+.head-qimen {
+    margin-bottom: 20px;
+}
+
 
 .telegram {
     font-size: 0.8rem;
