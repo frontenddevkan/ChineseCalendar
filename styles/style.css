@@ -23,7 +23,7 @@ body {
 }
 
 .header__nav {
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 2%;
 }
 
@@ -176,6 +176,22 @@ a {
 .qimen {
     margin: 40px;
 }
+
+.micro-grid div:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+
+
+
+
+
+
+
+
+
+
 .telegram {
     font-size: 0.8rem;
 
