@@ -9,10 +9,11 @@ html {
     background-color: #0C0016;
     color: #ffffff;
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 1,6rem;
+    font-size: 1.6rem;
+
 
 }
-
+/* header  */
 
 .header {
     width: 100%;
@@ -21,49 +22,11 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
+    padding-top: 10px;
+    margin-bottom: 100px;
 }
-
-
-
-.list {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0px;
-    font-size: 1.2rem;
-
-}
-
-.list-item {
-    padding: 10px;
-
-}
-
-.list-item:hover, .img:hover, telegram:hover {
-    color: #683095;
-    text-shadow: #ffffffcf 1px -1px 1px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.4s;
-
-    transform: scale(1.4);
-
-}
-
-p {
-    margin: 0;
-}
-.discuss__text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-}
-
-.wrapper {
+/* wrapper */
+.header__wrapper {
     width: 70%;
     height: 70%;
     margin: auto;
@@ -78,6 +41,82 @@ p {
     align-items: center;
 
     }
+
+/* navigation  */
+.header__nav {
+    max-width: 450px;
+    margin-right: 80px;
+
+}
+
+.discuss > a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.discuss > p {
+    margin: 0;
+    margin-left: 40px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0px;
+    font-size: 1.6rem;
+
+}
+
+.list-item {
+    padding: 20px;
+
+}
+
+.discuss {
+    max-width: 450px;
+    font-size: 1.2rem;
+}
+
+.discuss:hover {
+    text-shadow: #660095a2 4px -3px 4px;
+    cursor: pointer;
+
+    transition: 0.4s;
+
+}
+
+
+.list-item:hover {
+
+    text-shadow: #660095a2 4px -3px 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s;
+
+    transform: scale(1.5);
+
+}
+
+
+
+p {
+    margin: 0;
+}
+.discuss__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
 
 p {
    display: flex;
