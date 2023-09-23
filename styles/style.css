@@ -4,15 +4,20 @@ html {
 
     body {
 
-    max-width: 1500px;
+        max-width: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
     margin: 0 auto;
     background-color: #0C0016;
     color: #ffffff;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 1.6rem;
 
-
 }
+
 /* header  */
 
 .header {
@@ -78,6 +83,11 @@ html {
 .list-item {
     padding: 20px;
 
+  border: 1px solid;
+  border-image: linear-gradient(to top right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  border-image-slice: 3;
+  border-radius: 12px;
+
 }
 
 .discuss {
@@ -100,8 +110,8 @@ html {
     cursor: pointer;
     font-weight: bold;
     transition: 0.4s;
-
-    transform: scale(1.5);
+    border-radius: 12px;
+    transform: scale(1.4);
 
 }
 
