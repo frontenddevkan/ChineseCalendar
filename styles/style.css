@@ -1,5 +1,17 @@
+
+
+@font-face {
+    font-family: "Marske";
+    src: local("Marske"),
+        url("../fonts/Marske.ttf") format("truetype"),
+        url("../fonts/Marske.otf") format("opentype");
+}
+
+
 html {
     font-size: 10px;
+    font-family: "Marske", Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
 }
 
     body {
@@ -9,11 +21,13 @@ html {
         flex-direction: column;
         justify-content: space-between;
 
+
         background-color: #0C0016;
 
 
         color: #ffffff;
-     font-family: Verdana, Tahoma, sans-serif;
+
+
      font-size: 1.6rem;
 
 }
