@@ -15,11 +15,11 @@ const months = [
     "Ноябрь",
     "Декабрь"
   ];
-  let currentMonth = now.getMonth();
-  let monthWord = months[currentMonth];
+
 
   let now = new Date();
-
+  let currentMonth = now.getMonth();
+  let monthWord = months[currentMonth];
 
 let currentYear = now.getFullYear();
 let currentDay = now.getDay();

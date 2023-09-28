@@ -12,8 +12,12 @@ html {
     font-size: 10px;
     font-family: "Marske", Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
+    letter-spacing: 2px;
 }
 
+.violet-color {
+    color: #8c00ffdf;
+}
     body {
 
         max-width: 1500px;
@@ -177,7 +181,7 @@ main {
     text-align: center;
     gap: 15px;
 
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 
 }
 
