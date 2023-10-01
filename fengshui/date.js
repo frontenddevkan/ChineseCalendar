@@ -1,6 +1,6 @@
 'use strict';
 
-const arrayHeaven = ["ren", "gui", "Dzja", "i", "bin", "din", "wu", "dzi", "gen", "sin"];
+
 const months = [
     "Январь",
     "Февраль",
