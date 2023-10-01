@@ -22,7 +22,7 @@ const months = [
   let monthWord = months[currentMonth];
 
 let currentYear = now.getFullYear();
-let currentDay = now.getDay();
+let currentDay = now.getDate();
 let currentHour = now.getHours();
 let currentMinute = now.getMinutes();
 let currentSecond = now.getSeconds();
