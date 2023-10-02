@@ -199,7 +199,6 @@ main {
 }
 
 
-
 .table > div * {
     border: 0.5px solid;
     border-image: linear-gradient(to top right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
