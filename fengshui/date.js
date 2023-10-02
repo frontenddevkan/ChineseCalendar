@@ -17,7 +17,7 @@ const months = [
   ];
 
 
-  let now = new Date();
+  const now = new Date();
   console.log(now);
   let currentMonth = now.getMonth();
   let monthWord = months[currentMonth];
