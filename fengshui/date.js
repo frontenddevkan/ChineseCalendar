@@ -18,11 +18,13 @@ const months = [
 
 
   let now = new Date();
+  console.log(now);
   let currentMonth = now.getMonth();
   let monthWord = months[currentMonth];
 
 const currentYear = now.getFullYear();
 const currentDay = now.getDate();
+
 const currentHour = now.getHours();
 const currentMinute = now.getMinutes();
 const currentSecond = now.getSeconds();

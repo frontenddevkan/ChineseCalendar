@@ -7,7 +7,7 @@ const pathArrayHeaven = [];
 for(let i = 0; i < arrayHeaven.length; i++) {
     pathArrayHeaven.push(`../img/${arrayHeaven[i]}.svg`);
 }
-
+console.log(pathArrayHeaven);
 
 const startPoint = new Date(2023, 9, 1, 23, 0); // 1 october 2023 23:00
 const differentTime = (Math.floor((currentDay) - startPoint.getTime()) / 1000 * 60)*(-1);
