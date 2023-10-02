@@ -21,12 +21,12 @@ const months = [
   let currentMonth = now.getMonth();
   let monthWord = months[currentMonth];
 
-let currentYear = now.getFullYear();
-let currentDay = now.getDate();
-let currentHour = now.getHours();
-let currentMinute = now.getMinutes();
-let currentSecond = now.getSeconds();
-let current_time = currentHour + "." + currentMinute + "." + currentSecond;
+const currentYear = now.getFullYear();
+const currentDay = now.getDate();
+const currentHour = now.getHours();
+const currentMinute = now.getMinutes();
+const currentSecond = now.getSeconds();
+const current_time = currentHour + "." + currentMinute + "." + currentSecond;
 
 document.getElementById("hour-time").innerHTML = current_time;
 document.getElementById("day-time").innerHTML = currentDay;
