@@ -18,21 +18,28 @@ const months = [
 
 
   const now = new Date();
-  console.log(now);
-  let currentMonth = now.getMonth();
-  let monthWord = months[currentMonth];
+  //Оптимизировал назначение констант, сократил код
+const [
+  currentMonth,
+  currentYear,
+  currentDay,
+  currentHour,
+  currentMinute,
+  currentSecond
+] = [
+  now.getMonth(),
+  now.getFullYear(),
+  now.getDate(),
+  now.getHours(),
+  now.getMinutes(),
+  now.getSeconds(),
+];
 
-const currentYear = now.getFullYear();
-const currentDay = now.getDate();
-
-const currentHour = now.getHours();
-const currentMinute = now.getMinutes();
-const currentSecond = now.getSeconds();
 const current_time = currentHour + "." + currentMinute + "." + currentSecond;
 
 document.getElementById("hour-time").innerHTML = current_time;
 document.getElementById("day-time").innerHTML = currentDay;
-document.getElementById("month-time").innerHTML = monthWord;
+document.getElementById("month-time").innerHTML = months[currentMonth];
 document.getElementById("year-time").innerHTML = currentYear;
 
 
