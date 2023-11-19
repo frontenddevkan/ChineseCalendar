@@ -1,0 +1,29 @@
+'use strict';
+
+// for time for ouhrs earth trunks
+
+const arrayEarth = ["11", "12", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+const pathArrayEarth = [];
+
+for(let i = 0; i < arrayEarth.length; i++) {
+    pathArrayEarth.push(`../img/${arrayEarth[i]}.svg`);
+}
+
+
+const startPointEarth = new Date(2023, 10, 14, 21, 0); // 14 november 2023 21:00
+
+const differentTimeHourEarth = Math.floor(now - startPointEarth.getTime()) / (1000 * 60 * 120);
+
+const digitIndexHourEarth = Math.floor(differentTimeHourEarth % 12); // 120 minutes in two hours. and 12 elements.
+
+
+
+const imgEarthHour = document.createElement('img');
+imgEarthHour.src = pathArrayEarth[digitIndexHourEarth];
+
+const diveEarthHour = document.getElementById('div-earth-hour');
+diveEarthHour.innerHTML = '';
+diveEarthHour.appendChild(imgEarthHour);
+
+//
+
