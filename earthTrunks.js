@@ -19,9 +19,9 @@ const digitIndexHourEarth = Math.floor(differentTimeHourEarth % 12); // 120 minu
 const imgEarthHour = document.createElement('img');
 imgEarthHour.src = pathArrayEarth[digitIndexHourEarth];
 
-const diveEarthHour = document.getElementById('div-earth-hour');
-diveEarthHour.innerHTML = '';
-diveEarthHour.appendChild(imgEarthHour);
+const divEarthHour = document.getElementById('div-earth-hour');
+divEarthHour.innerHTML = '';
+divEarthHour.appendChild(imgEarthHour);
 
 // for Day cycles
 
