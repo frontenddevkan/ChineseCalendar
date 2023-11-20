@@ -7,7 +7,7 @@ const arrayHeaven = ["ren", "gui", "Dzja", "i", "bin", "din", "wu", "dzi", "gen"
 const pathArrayHeaven = [];
 
 for(let i = 0; i < arrayHeaven.length; i++) {
-    pathArrayHeaven.push(`./img/${arrayHeaven[i]}.svg`);
+    pathArrayHeaven.push(`../img/${arrayHeaven[i]}.svg`);
 }
 
 
@@ -46,7 +46,7 @@ divHeavenDay.appendChild(imgDay);
 const arrayHeavenMonth = ["sin", "ren", "gui", "Dzja", "i", "bin", "din", "wu", "dzi", "gen"];
 const pathArrayHeavenMonth = [];
 for(let ite = 0; ite < arrayHeavenMonth.length; ite++) {
-    pathArrayHeavenMonth.push(`./img/${arrayHeavenMonth[ite]}.svg`);
+    pathArrayHeavenMonth.push(`../img/${arrayHeavenMonth[ite]}.svg`);
 }
 console.log(pathArrayHeaven);
 
@@ -75,7 +75,7 @@ const arrayHeavenYear = ["gui", "Dzja", "i", "bin", "din", "wu", "dzi", "gen", "
 const pathArrayHeavenYear = [];
 
 for(let item = 0; item < arrayHeavenYear.length; item++) {
-    pathArrayHeavenYear.push(`./img/${arrayHeavenYear[item]}.svg`);
+    pathArrayHeavenYear.push(`../img/${arrayHeavenYear[item]}.svg`);
 }
 console.log(pathArrayHeavenYear);
 

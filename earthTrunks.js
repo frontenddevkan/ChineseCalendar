@@ -6,7 +6,7 @@ const arrayEarth = ["11", "12", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10
 const pathArrayEarth = [];
 
 for(let i = 0; i < arrayEarth.length; i++) {
-    pathArrayEarth.push(`./img/${arrayEarth[i]}.svg`);
+    pathArrayEarth.push(`../img/${arrayEarth[i]}.svg`);
 }
 
 
