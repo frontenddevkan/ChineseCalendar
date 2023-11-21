@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+/* section two
+
+.qimen__table {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    background-color: #f0f0f00c;
+    border: 2px rgba(146, 58, 131, 0.22) solid;
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid {
+    margin: 10px;
+    background-color:  #f0f0f022;
+}
+
+.arrow-left, .arrow-right {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.switch-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-vertical {
+    width: 188px;
+    height: 661px;
+    border: 2px rgba(146, 58, 131, 0.246) solid;
+    position: absolute;
+    left: 216px;
+    top: 0px;
+
+}
+
+.line-horisontal {
+    width: 612px;
+    height: 199px;
+    border: 2px rgba(146, 58, 131, 0.275) solid;
+    position: absolute;
+    left: 0px;
+    top: 234px;
+}
+.arrow-left:hover,.arrow-right:hover {
+    cursor: pointer;
+
+    transition: 0.5s;
+    background-color: #f0f0f099;
+    transform: scale(1.2);
+    outline: 3px rgba(146, 58, 131, 0.271) solid;
+}
+
+.head-qimen {
+    margin-bottom: 20px;
+}
+
+.qimen {
+    margin: 40px;
+}
+
+.micro-grid div:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+} */
+
+

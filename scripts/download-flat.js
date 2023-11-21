@@ -15,11 +15,12 @@ uploadButton.addEventListener("click", function() {
     fileInput.type = "file";
 
     // назначаем обработчик события выбора файла
-    fileInput.addEventListener("change", function(event) {
+    fileInput.addEventListener("change", function(e, event) {
             const file = e.target.files[0];
             // создаем объект файлридер для чтения файла
             const reader = new FileReader();
             reader.onload = function() {
+
    // создание элемента изображения и установливаем атрибуты используя данные изображения
    const imageElement = document.createElement("img");
     imageElement.src = reader.result;
