@@ -27,7 +27,7 @@ divHeavenHour.appendChild(img);
 
 // for Day cycles
 
-const startDate = new Date('2023-09-01');
+const startDate = new Date('2023, 9, 1, 23, 0');
 const currentDate = new Date();
 
 const differentTimeDay = Math.floor(currentDate - startDate) / (24 * 60 * 60 * 1000) ;
@@ -51,7 +51,7 @@ for(let ite = 0; ite < arrayHeavenMonth.length; ite++) {
 console.log(pathArrayHeaven);
 
 
-const startDateMonth = new Date('2023-09-01');
+const startDateMonth = new Date('2023, 9, 1, 23, 0');
 const currentDateMonth = new Date();
 
 const differentMonth = Math.floor(currentDateMonth - startDateMonth) / (30 * 24 * 60 * 60 * 1000) ;

@@ -10,7 +10,7 @@ for(let i = 0; i < arrayEarth.length; i++) {
 }
 
 
-const startPointEarth = new Date(2023, 10, 14, 21, 0); // 14 november 2023 21:00
+const startPointEarth = new Date(2023, 10, 14, 0, 0); // 14 november 2023 21:00
 
 const differentTimeHourEarth = Math.floor(now - startPointEarth.getTime()) / (1000 * 60 * 120);
 
@@ -25,7 +25,7 @@ divEarthHour.appendChild(imgEarthHour);
 
 // for Day cycles
 
-const startDateEarth = new Date('2023-10-20'); // 20 november 2023;
+const startDateEarth = new Date('2023, 10, 20, 0, 0'); // 20 november 2023;
 
 const currentDateEarth = new Date();
 
@@ -42,7 +42,7 @@ divEarthDay.appendChild(imgDayEarth);
 
 // for Month cycles
 
-const startDateEarthMonth = new Date('2023-11-20'); // 20 november 2023;
+const startDateEarthMonth = new Date('2023, 10, 20, 0, 0'); // 20 november 2023;
 
 const currentEarthDateMonth = new Date();
 
@@ -60,7 +60,7 @@ divEarthMonth.appendChild(imgMonthEarth);
 
 // for YEAR cycles
 
-const startDateEarthYear = new Date('2019-1-1'); // 20 november 2023;
+const startDateEarthYear = new Date('2019, 1, 1, 0, 0'); // 20 november 2023;
 const currentEarthDateYear = new Date();
 
 const differentYearEarth = Math.floor(currentEarthDateYear - startDateEarthYear) / (365 * 24 * 60 * 60 * 1000);
